@@ -1,0 +1,58 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#searchInput {
+  width: 75%;
+  padding: 15px;
+  border-radius: 30px;
+  margin: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+#searchInput:hover {
+  background: rgb(215, 214, 214);
+}
+#searchButton {
+  width: 120px;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #464646;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 3px 5px 10px black;
+}
+#searchButton:hover {
+  background-color: #383838;
+}
+#clearButton {
+  width: 120px;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #bc4646;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 3px 5px 10px rgb(56, 24, 24);
+}
+#clearButton:hover {
+  background-color: #8f2c2c;
+}
+.imageList-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; /* Sayfa da sığmazsa alta in demek */
+}
+.card {
+  margin: 20px;
+  border: 0.3px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 8px gray;
+}
